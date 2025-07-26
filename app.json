@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "target",
+    "slug": "target",
+    "scheme": "target",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.douglas.target",
+      "edgeToEdgeEnabled": true,
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#3D44CD",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.douglas.target",
+      "icon": "./assets/ios-icon.png"
+    },
+    "plugins": ["expo-router"]
+  }
+}
