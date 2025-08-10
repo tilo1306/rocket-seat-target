@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import { Text, View } from "react-native"
+import { HomeHeader } from "@/components/HomeHeader"
 
 export default function Index() {
   return (
-    <View>
-      <Text>Hello World</Text>
+    <View style={{ flex: 1 }}>
+      <HomeHeader />
     </View>
-  );
+  )
 }
